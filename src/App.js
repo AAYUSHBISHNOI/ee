@@ -22,7 +22,7 @@ function App() {
 // Aos-start
 
   useEffect (() => {
-  Aos.init({once:false,});
+  Aos.init({duration:1500,});
 }, [])
 // Aos-end
 

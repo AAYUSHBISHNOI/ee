@@ -13,36 +13,36 @@ const Total = () => {
               <div className='overflow_sm_table'>
                        <div data-aos="zoom-in-up" data-aos-duration="2000">
             <div className=' d-flex justify-content-between align-items-center'>
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>Round 1</p>
-                <p className=' ff_Raleway fs_20 fw_500 text-white'>10,000 EEFI Bonds</p>
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$12</span></p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>Round 1</p>
+                <p className=' ff_Raleway fs_20 fw_500 text-white txt_total'>10,000 EEFI Bonds</p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$12</span></p>
             </div>
             <p className='line_bottom mt-3'></p>
-            <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic'>Vested (locked) for 1 Year</p>
+            <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic txt_total'>Vested (locked) for 1 Year</p>
                     </div>
                     <div data-aos="zoom-in-down" data-aos-duration="2000">
             <div className=' d-flex justify-content-between align-items-center mt-4'>
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>Round 2</p>
-                <p className=' ff_Raleway fs_20 fw_500 text-white'>12,777 EEFI Bonds</p>
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$18</span></p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>Round 2</p>
+                <p className=' ff_Raleway fs_20 fw_500 text-white txt_total'>12,777 EEFI Bonds</p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$18</span></p>
             </div>
             <p className='line_bottom mt-3'></p>
-            <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic'>Vested (locked) for six months</p>
+            <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic txt_total'>Vested (locked) for six months</p>
                     </div>
                     <div>
                      <div className=' d-flex justify-content-between align-items-center mt-4' data-aos="zoom-in-left" data-aos-duration="2000">
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>Round 3</p>
-                <p className=' ff_Raleway fs_20 fw_500 text-white'>25,000 EEFI Bonds</p>
-                <p className=' ff_Raleway fs_18 fw_400 text-white'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$26</span></p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>Round 3</p>
+                <p className=' ff_Raleway fs_20 fw_500 text-white txt_total'>25,000 EEFI Bonds</p>
+                <p className=' ff_Raleway fs_18 fw_400 text-white txt_total'>@ <span className=' fs_38 ff_Raleway fw_400 text-white'>$26</span></p>
                       </div>
                   <p className='line_bottom mt-3' data-aos="zoom-in-right" data-aos-duration="2000"></p>
-                 <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic' data-aos="zoom-out" data-aos-duration="2000">No vesting or lock up periods. Available at launch.</p>
+                 <p className=' ff_Jakarta fs_16 fw_400 text-white justify-content-end d-flex pt-2 fst-italic txt_total' data-aos="zoom-out" data-aos-duration="2000">No vesting or lock up periods. Available at launch.</p>
                      </div>
                </div>
             </div>
             <div className=' text-center mt-5 pt-5'>
-                <p className=' ff_Raleway fs_20 fw_400 text-white text-decoration-underline pb-2' data-aos="zoom-out-up" data-aos-duration="2000">(47,777 or around   <span className='mx-2 fs_36 text-decoration-underline'>28%</span>  of total starting supply is up for IBO)</p>
-                <p className='txt_clr_7 ff_Raleway fs_14 fw_400' data-aos="zoom-out-down" data-aos-duration="2000">Individuals who hold $EEFI will also receive an airdrop of the protocol's <span className=' d-md-block'>governance token $EFT <span className='fs_12'> ...learn more</span></span></p>
+                <p className=' ff_Raleway fs_20 fw_400 text-white text-decoration-underline pb-2 txt_total' data-aos="zoom-out-up" data-aos-duration="2000">(47,777 or around   <span className='mx-2 fs_36 text-decoration-underline'>28%</span>  of total starting supply is up for IBO)</p>
+                <p className='txt_clr_7 ff_Raleway fs_14 fw_400' data-aos="zoom-out-down txt_total" data-aos-duration="2000">Individuals who hold $EEFI will also receive an airdrop of the protocol's <span className=' d-md-block'>governance token $EFT <span className='fs_12'> ...learn more</span></span></p>
             </div>
         </Container>
     </div>

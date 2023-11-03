@@ -459,7 +459,7 @@ p {
 .timeline::after {
   content: "";
   position: absolute;
-  width: 6px;
+  width: 2px;
   background-color: #4273ff;
   top: 1px;
   bottom: 0;
@@ -475,7 +475,7 @@ p {
 .timelinecontainer.left::after {
   content: url("./assets/img/icon_2.png");
   position: absolute;
-  right: 85.3%;
+  right: 85.8%;
   transform: rotate(180deg);
   top: -5%;
   border-radius: 50%;
@@ -496,7 +496,7 @@ p {
   right: 0;
 }
 .right::after {
-  left: -2px;
+  left: -5px;
 }
 .content {
   padding: 20px 30px;
@@ -643,6 +643,9 @@ nav ul{
 .dot_img{
   display: none;
 }
+.txt_total{
+  font-variant-numeric: lining-nums proportional-nums;
+}
 @media (max-width:1198px) {
   .nav-btn {
     display: inline-flex;
@@ -701,7 +704,7 @@ nav ul{
     max-width: 515px;
 }
 .timelinecontainer.left::after {
-  right: 90%;
+  right: 90.5%;
   top: -5%;
 }
 .hover_img {
@@ -840,7 +843,7 @@ nav ul{
     z-index: 1;
   }
   .right::after {
-    left: -12px;
+    left: -14px;
 }
   .bcg_team{
     background-image: linear-gradient(360deg, #fff 24%, #ffffff34 24%), url('./assets/img/bcg_team.png');
@@ -880,6 +883,9 @@ nav ul{
 }
 .hover_img_3{
   height: 303px;
+}
+.timelinecontainer.left::after {
+  right: -2.3%;
 }
 }
 @media (min-width:1024px) {
@@ -959,7 +965,7 @@ nav ul{
   padding-top: 15%;
 }
 .timelinecontainer.left::after {
-  right: -2.3%;
+  right: -1.9%;
   top: -2%;
 } 
 .img_cloud {

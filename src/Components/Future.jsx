@@ -49,7 +49,7 @@ const Future = () => {
                 </div>
              <div className="card_body">
                   <img className='hover_img w-100' src={monkey} alt="" />
-                <h1 className='card_title ff_machina'>REAL YIELD</h1>
+                <h1 className='card_title ff_machina '>REAL YIELD</h1>
                 <p className='card_subtitle ff_Raleway fs_16 fw_400 txt_clr_1'>These are strategies that will explore other Real Yield ecosystems outside of Olympus DAO. For example GMX - the leading leverage platform that </p>
                 <p className='card_info ff_Raleway fw_400 fs_16 txt_clr_1'>distributes 100% of fees. We are also looking at Vela Exchange, Jones DAO and many others on Arbitrum.</p>
                 <p className='fs_20 fw_600 ff_Raleway text-white pt-1'>Platforms: </p>
