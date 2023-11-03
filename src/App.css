@@ -568,6 +568,9 @@ textarea::placeholder{
   border: none;
   resize: none; 
 }
+.icn{
+  cursor: pointer;
+}
 .bttn_sub{
   border-radius: 8px;
   background: linear-gradient(93deg, #1643C3 10.28%, #369EFE 96.25%), linear-gradient(179deg, #1643C3 0.63%, #000 175.69%);

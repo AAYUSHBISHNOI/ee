@@ -9,7 +9,7 @@ import { Dis, Link, Twit } from './Mysvg';
 const Team = () => {
   return (
     <div className='bcg_team'>
-        <Container className='pt-5'>
+        <Container className='pt-5 my_container'>
             <div className='text-center pt-md-5'>
             <h2 className='ff_machina fs_46 fw_700 text-white' data-aos="fade-up-right" data-aos-duration="2000">Our Team</h2>
             </div>

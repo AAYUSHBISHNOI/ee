@@ -13,7 +13,7 @@ const Amplify = () => {
       <div className='text-center py-3  d-none d-md-block'>
       <h2 className='ff_machina fs_52 fw_800 text-white ' data-aos="zoom-in-up" data-aos-duration="2000">Amplify and <span className='text-uppercase'>stretch gains</span></h2>
       </div>
-      <Container className='d-flex flex-column justify-content-center min-100'>
+      <Container className='my_container d-flex flex-column justify-content-center min-100'>
         <p className='text-center fs_14 fw_400 text-white ff_Raleway d-none d-md-block' data-aos="zoom-in-down" data-aos-duration="2000">We take a different balanced approach to finding and creating yield opportunities in <span className='d-lg-block'>the everchanging crypto market. Our yield strategies help users stay protected and</span><span className='d-lg-block'> hedged during bear markets and amplify yield during bull markets without resorting</span><span className='d-lg-block'> to leverage or other dangerous techniques.</span></p>
       </Container>
       <div className=' d-md-none'>
