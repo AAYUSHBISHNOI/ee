@@ -18,9 +18,9 @@ const Myheader = () => {
     document.body.classList.remove("overflow-hidden")
   }
   return (
-    <div className='min_vh_100 bcg_hero d-flex flex-column position-relative pt-2'>
-      <img className=' position-absolute dot_img' data-aos="zoom-in-up" data-aos-duration="2000" src={dot} alt="" />
-        <nav className=' z-3' data-aos="zoom-in-up" data-aos-duration="2000">
+    <div className='min_vh_100 bcg_hero d-flex flex-column position-relative pt-3'>
+      <img className=' position-absolute dot_img' data-aos="zoom-in-up" src={dot} alt="" />
+        <nav className=' z-3' data-aos="zoom-in-up">
           <Container className='my_container d-flex align-items-center justify-content-between'>
             <div>
                <img className='' src={logo} alt="" />
@@ -58,15 +58,15 @@ const Myheader = () => {
           <Container className='my_container'>
             <Row className='align-items-center pb-5 mb-5 mb-sm-0 mb-lg-5 pb-xl-0 mb-xl-0'>
               <Col xl={6} className='text-center pt-4 text-xl-start'>
-                <h1 className='ff_machina fs_85 fw_500 text-white text-uppercase' data-aos="zoom-in" data-aos-duration="2000">Building <span className='d-l-block'>elastic</span> <span className='d-lg-block'>Protocol</span></h1>
-                <p className='ff_Raleway fs_16 fw_400 text-white pt-3 pt-md-2 pt-lg-0' data-aos="zoom-in-up" data-aos-duration="2000">An ecosystem of unique yield strategies that help you earn yield, <span className='d-sm-block'>amplify, and stretch it across all market conditions</span></p>
-                <div className='position-relative linee' data-aos="zoom-in-left" data-aos-duration="2000">
-                <p className='ff_Raleway fw_700 fs_18 text-white pt-3 pt-lg-2 pt-lg-0' data-aos="zoom-in-down" data-aos-duration="2000">Audited by Omniscia</p>
+                <h1 className='ff_machina fs_85 fw_500 text-white text-uppercase' data-aos="zoom-in">Building <span className='d-l-block'>elastic</span> <span className='d-lg-block'>Protocol</span></h1>
+                <p className='ff_Raleway fs_16 fw_400 text-white pt-3 pt-md-2 pt-lg-0' data-aos="zoom-in-up">An ecosystem of unique yield strategies that help you earn yield, <span className='d-sm-block'>amplify, and stretch it across all market conditions</span></p>
+                <div className='position-relative linee' data-aos="zoom-in-left">
+                <p className='ff_Raleway fw_700 fs_18 text-white pt-3 pt-lg-2 pt-lg-0' data-aos="zoom-in-down">Audited by Omniscia</p>
                 </div>
               </Col>
               <Col xl={6}>
-                <img className='w-100 hero_img d-none d-md-block' data-aos="zoom-out-up" data-aos-duration="2000" src={hero} alt="" />
-                <img className='w-100 hero_img d-md-none' data-aos="zoom-out-down" data-aos-duration="2000" src={robot} alt="" />
+                <img className='w-100 hero_img d-none d-md-block' data-aos="zoom-out-up" src={hero} alt="" />
+                <img className='w-100 hero_img d-md-none' data-aos="zoom-out-down" src={robot} alt="" />
               </Col>
             </Row>
           </Container>

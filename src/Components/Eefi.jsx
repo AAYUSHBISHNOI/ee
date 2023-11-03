@@ -25,37 +25,37 @@ const Eefi = () => {
         <div className='col_gradieant my_width pt-5 '>
           <div className=' pt-3 pt-lg-5 mt-lg-5 pb-5 pb-lg-0 bcg_graph custom-width-1'>
             <div className='mt-lg-4 ms-sm-2 ms-md-5 ms-lg-4  pb-3 pb-lg-0'>
-                <div className='d-flex align-items-center' data-aos="fade-up" data-aos-duration="2000">
+                <div className='d-flex align-items-center' data-aos="fade-up">
                   <Atwo/>
-                  <div>
+                  <div className='ms-3'>
                     <p className='fs_24 fw_700 ff_machina text-white'>Decentralized Yield</p>
                     <p className='fonts_16 ff_Raleway fw_400 txt_clr_8'>Protocol’s native utility | rewards token</p>
                   </div>
                 </div>
-                <div className='d-flex align-items-center' data-aos="fade-down" data-aos-duration="2000">
+                <div className='d-flex align-items-center' data-aos="fade-down">
                   <Athree/>
-                  <div>
+                  <div className='ms-3'>
                     <p className='fs_24 fw_700 ff_machina text-white'>Extra Value</p>
                     <p className='fonts_16 ff_Raleway fw_400 txt_clr_8'>Can be highly deflationary during market uptrends</p>
                   </div>
                 </div>
-                <div className='d-flex align-items-center' data-aos="fade-right" data-aos-duration="2000">
+                <div className='d-flex align-items-center' data-aos="fade-right">
                   <Afour/>
-                  <div>
+                  <div className='ms-3'>
                     <p className='fs_24 fw_700 ff_machina text-white'>Smart Index</p>
                     <p className='fonts_16 ff_Raleway fw_400 txt_clr_8'>Token can be viewed as an index of all strategy <span className='d-block'>performance on the protocol</span></p>
                   </div>
                 </div>
-                <div className='d-flex align-items-center' data-aos="fade-left" data-aos-duration="2000">
+                <div className='d-flex align-items-center' data-aos="fade-left">
                   <Afive/>
-                  <div>
+                  <div className='ms-3'>
                     <p className='fs_24 fw_700 ff_machina text-white'>Social Coordination (E,E)</p>
                     <p className='fonts_16 ff_Raleway fw_400 txt_clr_8'>Promotes hyper social coordination around all <span className='d-block'>strategies on the protocol (E,E) ( makes hedging fun and</span><span className='d-block'> working together produces more benefits to all vault</span><span className='d-block'>users )</span></p>
                   </div>
                 </div>
-                <div className='d-flex align-items-center' data-aos="fade-up-right" data-aos-duration="2000">
+                <div className='d-flex align-items-center' data-aos="fade-up-right">
                   <Asix/>
-                  <div>
+                  <div className='ms-3'>
                     <p className='fs_24 fw_700 ff_machina text-white'>Expansive Utility Dimensions</p>
                     <p className='fonts_16 ff_Raleway fw_400 txt_clr_8'>EEFI’s utility will expand as more strategies are <span className='d-block'>added to the protocol.</span></p>
                   </div>

@@ -5,11 +5,11 @@ const Roadmap = () => {
   return (
     <div className="bcg_road pb-5 pt-5">
       <Container className=" my_container pb-5 pt-lg-5">
-        <h2 className=" fs_46 fw_700 ff_machina text-white text-center pt-5 pb-5" data-aos="zoom-in" data-aos-duration="1500">
+        <h2 className=" fs_46 fw_700 ff_machina text-white text-center pt-5 pb-5" data-aos="zoom-in">
           Roadmap
         </h2>
         <div class="timeline mt-lg-5 mt-3">
-          <div class="timelinecontainer left" data-aos="zoom-in" data-aos-duration="2500">
+          <div class="timelinecontainer left" data-aos="zoom-in">
             <div class="content">
               <h2 className=" fw_500 fs_20 ff_Jakarta text-white"> 2022</h2>
               <ul className=" mt-3">
@@ -32,7 +32,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer right" data-aos="fade-up" data-aos-duration="2500">
+          <div class="timelinecontainer right" data-aos="fade-up">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">
                 {" "}
@@ -59,7 +59,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer left" data-aos="fade-down" data-aos-duration="2500">
+          <div class="timelinecontainer left" data-aos="fade-down">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white"> Q3 2023</h2>
               <ul className=" mt-3">
@@ -84,7 +84,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer right" data-aos="fade-right" data-aos-duration="2500">
+          <div class="timelinecontainer right" data-aos="fade-right">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">Q4 2023</h2>
               <ul className=" mt-3">
@@ -121,7 +121,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer left" data-aos="fade-left" data-aos-duration="2500">
+          <div class="timelinecontainer left" data-aos="fade-left">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white"> Q1 2024</h2>
               <ul className=" mt-3">
@@ -168,7 +168,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer right" data-aos="fade-up-right" data-aos-duration="2500">
+          <div class="timelinecontainer right" data-aos="fade-up-right">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">Q2 2024</h2>
               <ul className=" mt-3">
@@ -189,7 +189,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer left" data-aos="fade-up-left" data-aos-duration="2500">
+          <div class="timelinecontainer left" data-aos="fade-up-left">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">Q3 2024</h2>
               <ul className=" mt-3">
@@ -210,7 +210,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer right" data-aos="fade-down-right" data-aos-duration="2500">
+          <div class="timelinecontainer right" data-aos="fade-down-right">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">Q4 2024</h2>
               <ul className=" mt-3">
@@ -224,7 +224,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer left" data-aos="fade-down-left" data-aos-duration="2500">
+          <div class="timelinecontainer left" data-aos="fade-down-left">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white">Q1 2025</h2>
               <ul className=" mt-3">
@@ -242,7 +242,7 @@ const Roadmap = () => {
               </ul>
             </div>
           </div>
-          <div class="timelinecontainer right d-none d-lg-block" data-aos="zoom-in-up" data-aos-duration="2500">
+          <div class="timelinecontainer right d-none d-lg-block" data-aos="zoom-in-up">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white"> Q2 2025</h2>
               <ul className=" mt-3">
@@ -260,7 +260,7 @@ const Roadmap = () => {
             </div>
           </div> 
         </div>
-        <div class="timelinecontainer right d-lg-none" data-aos="zoom-in-down" data-aos-duration="2500">
+        <div class="timelinecontainer right d-lg-none" data-aos="zoom-in-down">
             <div class="content ">
               <h2 className=" fw_500 fs_20 ff_jakarta text-white"> Q2 2025</h2>
               <ul className=" mt-3">

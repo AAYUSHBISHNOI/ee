@@ -11,13 +11,13 @@ const Team = () => {
     <div className='bcg_team'>
         <Container className='pt-5 my_container'>
             <div className='text-center pt-md-5'>
-            <h2 className='ff_machina fs_46 fw_700 text-white' data-aos="fade-up-right" data-aos-duration="2000">Our Team</h2>
+            <h2 className='ff_machina fs_46 fw_700 text-white' data-aos="fade-up-right">Our Team</h2>
             </div>
             <Row className='pt-5 mt-5'>
-                <Col md={4} data-aos="fade-right" data-aos-duration="2000">
-                    <div className=' card_2'>
-                      <div className=' overflow-hidden'><img className='w-100 link_Scale' src={monkey} alt="" /></div>
-                          <div className='text-ceter pb-3'>
+                <Col md={4} >
+                    <div className=' card_2 d-flex justify-content-center flex-column align-items-center' data-aos="fade-right">
+                      <img className='w-100 link_Scale' src={monkey} alt="" />
+                          <div className='text-ceter  pb-3'>
                             <h2 className='ff_Raleway fs_24 fw_500 text-black mt-4'>Davoice</h2>
                             <p className='ff_Raleway fs_16 fw_400 text-black pt-2'>Co-Founder</p>
                             <div className='d-flex align-items-center justify-content-center pt-3'>
@@ -29,7 +29,7 @@ const Team = () => {
                     </div>
                 </Col>
                 <Col md={4} className='mt-3 mt-md-0'>
-                    <div className=' card_2'data-aos="fade-up" data-aos-duration="2000">
+                    <div className=' card_2'data-aos="fade-up">
                       <div className=' overflow-hidden'>
                       <img className='w-100 link_Scale' src={solo} alt="" />
                       </div>
@@ -46,7 +46,7 @@ const Team = () => {
                           </div>
                     </div>
                 </Col>
-                <Col md={4} className='mt-3 mt-md-0'data-aos="fade-left" data-aos-duration="2000">
+                <Col md={4} className='mt-3 mt-md-0'data-aos="fade-left">
                     <div className=' card_2'>
                       <div className=' overflow-hidden'>
                       <img className='w-100 link_Scale' src={anton} alt="" />

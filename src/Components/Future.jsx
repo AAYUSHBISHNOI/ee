@@ -26,11 +26,11 @@ const Future = () => {
     <div className='bcg_future pt-md-5 pb-5'>
         <Container className=' pt-3 pt-md-5 pb-5 my_container'>
             <div className=' text-center'>
-                <h2 className=' ff_machina fs_46 fw_700 txt_clr_6' data-aos="fade-right" data-aos-duration="2000">Future Use Cases (Strategies)</h2>
-                <p className=' ff_Raleway fs_16 fw_400 text-black pt-2' data-aos="fade-left" data-aos-duration="2000">Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a <span className='d-lg-block'>range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the</span><span className=' d-lg-block'> utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</span></p>
+                <h2 className=' ff_machina fs_46 fw_700 txt_clr_6' data-aos="fade-right">Future Use Cases (Strategies)</h2>
+                <p className=' ff_Raleway fs_16 fw_400 text-black pt-2' data-aos="fade-left">Elastic Protocol will continue to pioneer an expanding ecosystem of yield strategies that will cater to DeFi users across a <span className='d-lg-block'>range of blockchains, communities, and interests. Each will help in generating sustainable yield and expanding the</span><span className=' d-lg-block'> utility of the native utility token $EEFI. Here is some of what we are planning and looking into:</span></p>
             </div>
              <Row className='pt-md-5 mt-md-5 pb-5 mt-4 justify-content-center d-flex'>
-              <Col sm={6} md={6} xl={4} data-aos="fade-up" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} data-aos="fade-up">
                 <div className='card position-relative'>
           <img className='card_img' src={monkey} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -62,7 +62,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4 mt-sm-0' data-aos="fade-down" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4 mt-sm-0' data-aos="fade-down">
                 <div className='card position-relative'>
           <img className='card_img' src={img1} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -94,7 +94,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4 mt-xl-0' data-aos="fade-up-right" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4 mt-xl-0' data-aos="fade-up-right">
                 <div className='card position-relative'>
           <img className='card_img' src={man} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -126,7 +126,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-left" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-left">
                 <div className='card position-relative'>
           <img className='card_img' src={girl} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -158,7 +158,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-down-right" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-down-right">
                 <div className='card position-relative'>
           <img className='card_img' src={fish} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -190,7 +190,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4'data-aos="fade-down-left" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4'data-aos="fade-down-left">
                 <div className='card position-relative'>
           <img className='card_img' src={mouth} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -222,7 +222,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up">
                 <div className='card position-relative'>
           <img className='card_img' src={boy} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -254,7 +254,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-right" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-right">
                 <div className='card position-relative'>
           <img className='card_img' src={paint} alt="" />
                 <div className='card_5 txt_pstn'>
@@ -286,7 +286,7 @@ const Future = () => {
           </div> 
                </div>
              </Col>
-              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-left" data-aos-duration="2000">
+              <Col sm={6} md={6} xl={4} className='mt-4' data-aos="fade-up-left">
                 <div className='card position-relative'>
           <img className='card_img' src={ai} alt="" />
                 <div className='card_5 txt_pstn'>

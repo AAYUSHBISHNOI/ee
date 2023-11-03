@@ -12,15 +12,15 @@ const Myfooter = () => {
                 <p className='txt_clr_6 ff_Raleway fs_16 fw_400 pt-1'>Join Our Community</p>
                 <div className='d-md-flex align-items-center pt-3 justify-content-center'>
                     <div className='d-flex align-items-center justify-content-center'>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out" data-aos-duration="3000">About</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md5' data-aos="zoom-out-up" data-aos-duration="3000">IBO Event</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-down" data-aos-duration="3000">EEFI Tokenomics</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-out-right" data-aos-duration="3000">Team</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out">About</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md5' data-aos="zoom-out-up">IBO Event</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-down">EEFI Tokenomics</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-out-right">Team</p>
                     </div>
                    <div className='d-flex align-items-center justify-content-center'>
-                   <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-left" data-aos-duration="3000">Roadmap</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-in-right" data-aos-duration="3000">Partners</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-in-left" data-aos-duration="3000">Contact Us</p>
+                   <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-left">Roadmap</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-in-right">Partners</p>
+                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-in-left">Contact Us</p>
                    </div>
                 </div>
                 <div className='d-md-flex justify-content-center pt-4 pb-5 mb-3'>

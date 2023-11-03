@@ -18,12 +18,12 @@ const Sampl = () => {
     <div className='bcg_section_3 position-relative pb-5 pt-lg-5'>
         <Container className='pb-lg-5 pb-4 pt-4 pt-lg-5 my_container'>
             <div className='text-center pt-5'>
-                <h2 className='fs_46 fw_700 ff_machina text-white' data-aos="fade-up" data-aos-duration="2000">Core Strategies</h2>
-                <p className='txt_clr_1 fs_16 fw_400 ff_Raleway pt-3' data-aos="fade-down" data-aos-duration="2000">Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-<span className='d-lg-block'>edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for</span><span className='d-lg-block'>our native protocol token $EEFI. Check them out!'</span></p>
+                <h2 className='fs_46 fw_700 ff_machina text-white' data-aos="fade-up">Core Strategies</h2>
+                <p className='txt_clr_1 fs_16 fw_400 ff_Raleway pt-3' data-aos="fade-down">Our initial strategies use powerful burgeoning trends like Real Yield, Rebase, and others to generate cutting-<span className='d-lg-block'>edged yield innovations. These yield strategies stretch beyond the drought in stable coins and set the value for</span><span className='d-lg-block'>our native protocol token $EEFI. Check them out!'</span></p>
             </div>
               <Slider {...settings}>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-          <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-right" data-aos-duration="2000">
+          <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-right">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -47,7 +47,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-left" data-aos-duration="2000">
+            <Col md={12} xl={5} className='pt-4' data-aos="fade-left">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -70,7 +70,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-right" data-aos-duration="2000">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-right">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -94,7 +94,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-left" data-aos-duration="2000">
+            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-left">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -117,7 +117,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-down-left" data-aos-duration="2000">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-down-left">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -141,7 +141,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-down-right" data-aos-duration="2000">
+            <Col md={12} xl={5} className='pt-4' data-aos="fade-down-right">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -164,7 +164,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-left    " data-aos-duration="2000">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-left    ">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -188,7 +188,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-right" data-aos-duration="2000">
+            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-right">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
