@@ -566,6 +566,7 @@ textarea::placeholder{
   border-bottom: 1px solid #a7c3f1 !important;
   background-color: transparent;
   border: none;
+  resize: none; 
 }
 .bttn_sub{
   border-radius: 8px;
