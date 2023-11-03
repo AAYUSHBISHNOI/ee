@@ -56,7 +56,7 @@ const Myheader = () => {
         </nav>
         <section className='d-lg-flex flex-grow-1'>
           <Container className='my_container'>
-            <Row className='align-items-center pb-5 mb-5 mb-sm-0 mb-lg-5 pb-xl-0 mb-xl-0'>
+            <Row className='align-items-center pb-5 pb-sm-0 mb-sm-0 mb-lg-5 pb-xl-0 mb-xl-0'>
               <Col xl={6} className='text-center pt-4 text-xl-start'>
                 <h1 className='ff_machina fs_85 fw_500 text-white text-uppercase' data-aos="zoom-in">Building <span className='d-l-block'>elastic</span> <span className='d-lg-block'>Protocol</span></h1>
                 <p className='ff_Raleway fs_16 fw_400 text-white pt-3 pt-md-2 pt-lg-0' data-aos="zoom-in-up">An ecosystem of unique yield strategies that help you earn yield, <span className='d-sm-block'>amplify, and stretch it across all market conditions</span></p>
@@ -65,8 +65,8 @@ const Myheader = () => {
                 </div>
               </Col>
               <Col xl={6}>
-                <img className='w-100 hero_img d-none d-md-block' data-aos="zoom-out-up" src={hero} alt="" />
-                <img className='w-100 hero_img d-md-none' data-aos="zoom-out-down" src={robot} alt="" />
+                <img className='w-100 hero_img d_block' data-aos="zoom-out-up" src={hero} alt="" />
+                <img className='w-100 hero_img d_img' data-aos="zoom-out-down" src={robot} alt="" />
               </Col>
             </Row>
           </Container>

@@ -646,6 +646,9 @@ nav ul{
 .txt_total{
   font-variant-numeric: lining-nums proportional-nums;
 }
+.d_block{
+  display: none;
+}
 @media (max-width:1198px) {
   .nav-btn {
     display: inline-flex;
@@ -702,6 +705,9 @@ nav ul{
   }
   .custom-width {
     max-width: 515px;
+}
+.img_cloud {
+  bottom: -7%;
 }
 .timelinecontainer.left::after {
   right: 90.5%;
@@ -853,6 +859,12 @@ nav ul{
   }
 }
 @media (min-width:992px) {
+  .d_block{
+    display: block;
+  }
+  .d_img{
+    display: none;
+  }
   .fs_85 {
     font-size: 85px;
 }
