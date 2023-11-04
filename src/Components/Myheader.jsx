@@ -27,12 +27,12 @@ const Myheader = () => {
             </div>
           <div className=' d-flex align-items-center  me-lg-0 z-3'>
              <ul className={show ? "open": ""}>
-              <li><a href="#About" className='ff_Raleway fs_16 fw_500 text-white'>About</a></li>
-              <li><a href="#Ibo" className='ff_Raleway fs_16 fw_500 text-white'>IBO Event</a></li>
-              <li><a href="#Eefi" className='ff_Raleway fs_16 fw_500 text-white'>EEFI Tokenomics</a></li>
-              <li><a href="#Team" className='ff_Raleway fs_16 fw_500 text-white'>Team</a></li>
-              <li><a href="#Partners" className='ff_Raleway fs_16 fw_500 text-white'>Partners</a></li>
-              <li><a href="#Roadmap" className='ff_Raleway fs_16 fw_500 text-white'>Roadmap</a></li>
+              <li><a href="#About" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>About</a></li>
+              <li><a href="#Ibo" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>IBO Event</a></li>
+              <li><a href="#Eefi" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>EEFI Tokenomics</a></li>
+              <li><a href="#Team" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>Team</a></li>
+              <li><a href="#Partners" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>Partners</a></li>
+              <li><a href="#Roadmap" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>Roadmap</a></li>
               <Dropdown as={ButtonGroup}>
       <Button variant="success">More</Button>
 

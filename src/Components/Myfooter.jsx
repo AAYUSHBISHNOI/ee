@@ -42,7 +42,7 @@ const Myfooter = () => {
             </div>
         </Container>
         <div className='foter_line'>
-                <Container className=' my_container'>
+                <Container className=' '>
                     <div className='d-flex justify-content-between align-items-center pt-3'>
                     <p className='txt_clr_10 ff_Raleway fs_14 fw_400'>@Copyright 2023</p>
                     <p className='txt_clr_10 ff_Raleway fs_14 fw_400'>Privacy policy</p>
