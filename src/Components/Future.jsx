@@ -23,7 +23,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Future = () => {
   return (
-    <div className='bcg_future pt-md-5 pb-5'>
+    <div className='bcg_future pt-md-5 pb-5' id='Future'>
         <Container className=' pt-3 pt-md-5 pb-5 my_container'>
             <div className=' text-center'>
                 <h2 className=' ff_machina fs_46 fw_700 txt_clr_6' data-aos="fade-right">Future Use Cases (Strategies)</h2>

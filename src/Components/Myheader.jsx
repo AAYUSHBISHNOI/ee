@@ -34,7 +34,7 @@ const Myheader = () => {
               <li><a href="#Partners" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>Partners</a></li>
               <li><a href="#Roadmap" className='ff_Raleway fs_16 fw_500 text-white position-relative headline'>Roadmap</a></li>
               <Dropdown as={ButtonGroup}>
-      <Button variant="success" className='ff_Raleway fs_16 fw_500 text-white position-relative headlinee'>More</Button>
+                <a href="#Future">      <Button variant="success" className='ff_Raleway fs_16 fw_500 text-white position-relative headlinee'>More</Button></a>
 
       <Dropdown.Toggle split variant="success" id="dropdown-split-basic" />
 
