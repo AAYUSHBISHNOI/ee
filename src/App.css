@@ -684,6 +684,21 @@ input[type=number]::-webkit-outer-spin-button {
     width: 100%;
     right: 0;
 } 
+.headlinee::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: -5;
+    right: 50%;
+    display: block;
+    background-color: #ffffff;
+    transition: all 300ms linear !important;
+}
+.headlinee:hover::after {
+    width: 85%;
+    right: 0;
+} 
 @media (max-width:1198px) {
   .nav-btn {
     display: inline-flex;
