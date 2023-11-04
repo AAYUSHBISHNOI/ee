@@ -15,7 +15,7 @@ const Sampl = () => {
           autoplaySpeed: 3000,      
         };
   return (
-    <div className='bcg_section_3 position-relative pb-5 pt-lg-5'>
+    <div className='bcg_section_3 position-relative pb-5 pt-lg-5' >
         <Container className='pb-lg-5 pb-4 pt-4 pt-lg-5 my_container'>
             <div className='text-center pt-5'>
                 <h2 className='fs_46 fw_700 ff_machina text-white' data-aos="fade-up">Core Strategies</h2>
@@ -23,7 +23,7 @@ const Sampl = () => {
             </div>
               <Slider {...settings}>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-          <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-right">
+          <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="zoom-in">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -47,7 +47,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-left">
+            <Col md={12} xl={5} className='pt-4' data-aos="zoom-out">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -70,7 +70,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-right">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="zoom-in-up">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -94,7 +94,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-left">
+            <Col md={12} xl={5} className='pt-4' data-aos="zoom-in-down">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -117,7 +117,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-down-left">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="zoom-out-up">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -141,7 +141,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-down-right">
+            <Col md={12} xl={5} className='pt-4' data-aos="zoom-out-down">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>
@@ -164,7 +164,7 @@ const Sampl = () => {
             </Col>
             </Row>
             <Row className='align-items-center pt-5 justify-content-center d-flex mb-5'>
-            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="fade-up-left    ">
+            <Col md={6} xl={4} className=' d-flex justify-content-center' data-aos="zoom-out-left">
                     <div className='card_1'>
                         <div>
                             <button className='bttn_in ff_Raleway fs_14 fw_400 text-white'>Innovation</button>
@@ -188,7 +188,7 @@ const Sampl = () => {
                     </div>
             </Col>
             <Col md={1}></Col>
-            <Col md={12} xl={5} className='pt-4' data-aos="fade-up-right">
+            <Col md={12} xl={5} className='pt-4' data-aos="zoom-out-right">
                     <h2 className='fs_38 fw_400 ff_machina text-white'>Elastic Vault</h2>
                     <div className='d-flex align-items-center'>
                     <p className='fs_22 fw_500 ff_Raleway text-white me-2'>Deposit Token</p>

@@ -4,7 +4,7 @@ import { Balan, Bond, Found, Gear, Oly, Uni } from './Mysvg';
 
 const Eco = () => {
   return (
-    <div className='pb-md-5'>
+    <div className='pb-md-5' id='Partners'>
         <Container className=' my_container mb-5 pb-md-5 pb-3'>
             <div className='text-center padding_text'>
                 <h2 className='ff_machina fs_46 fw_700 txt_clr_6' data-aos="fade-up" >Ecosystem Partners</h2>

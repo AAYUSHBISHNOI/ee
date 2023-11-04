@@ -23,16 +23,16 @@ const Myheader = () => {
         <nav className=' z-3' data-aos="zoom-in-up">
           <Container className='my_container d-flex align-items-center justify-content-between'>
             <div>
-               <img className='' src={logo} alt="" />
+              <a href=""><img className='' src={logo} alt="" /></a>
             </div>
           <div className=' d-flex align-items-center  me-lg-0 z-3'>
              <ul className={show ? "open": ""}>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>About</a></li>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>IBO Event</a></li>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>EEFI Tokenomics</a></li>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>Team</a></li>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>Partners</a></li>
-              <li><a href="About" className='ff_Raleway fs_16 fw_500 text-white'>Roadmap</a></li>
+              <li><a href="#About" className='ff_Raleway fs_16 fw_500 text-white'>About</a></li>
+              <li><a href="#Ibo" className='ff_Raleway fs_16 fw_500 text-white'>IBO Event</a></li>
+              <li><a href="#Eefi" className='ff_Raleway fs_16 fw_500 text-white'>EEFI Tokenomics</a></li>
+              <li><a href="#Team" className='ff_Raleway fs_16 fw_500 text-white'>Team</a></li>
+              <li><a href="#Partners" className='ff_Raleway fs_16 fw_500 text-white'>Partners</a></li>
+              <li><a href="#Roadmap" className='ff_Raleway fs_16 fw_500 text-white'>Roadmap</a></li>
               <Dropdown as={ButtonGroup}>
       <Button variant="success">More</Button>
 
@@ -54,7 +54,7 @@ const Myheader = () => {
           </div>
           </Container>
         </nav>
-        <section className='d-lg-flex flex-grow-1'>
+        <section className='d-lg-flex flex-grow-1' id='About'>
           <Container className='my_container'>
             <Row className='align-items-center pb-5 pb-sm-0 mb-sm-0 mb-lg-5 pb-xl-0 mb-xl-0'>
               <Col xl={6} className='text-center pt-4 text-xl-start'>

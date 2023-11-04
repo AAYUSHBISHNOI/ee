@@ -8,19 +8,20 @@ const Myfooter = () => {
     <div>
         <Container className='my_container'>
             <div className='text-center mt-5 pt-md-5 pt-3'>
-                <img src={logo} alt="" />
-                <p className='txt_clr_6 ff_Raleway fs_16 fw_400 pt-1'>Join Our Community</p>
+                <a href=""><img src={logo} alt="" /></a>
+                <div><a href="https://icodrops.com/efinity/" className='txt_clr_6 ff_Raleway fs_16 fw_400 pt-1'>Join Our Community</a></div>
+
                 <div className='d-md-flex align-items-center pt-3 justify-content-center'>
                     <div className='d-flex align-items-center justify-content-center'>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out">About</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md5' data-aos="zoom-out-up">IBO Event</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-down">EEFI Tokenomics</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-out-right">Team</p>
+                        <a href="https://www.efi.com/about-efi/" className='txt_clr_9 ff_Raleway fs_16 fw_400'>About</a>
+                        <a href="https://newdocs.eefi.finance/docs/protocol-basics/eefi_tokenomics/" className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-4'>IBO Event</a>
+                        <a href="https://www.coingecko.com/en/coins/efinity-token/tokenomics" className='txt_clr_9 ff_Raleway fs_16 fw_400'>EEFI Tokenomics</a>
+                        <a href="https://www.efi.com/about-efi/leadership/leadership-team/" className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-4'>Team</a>
                     </div>
                    <div className='d-flex align-items-center justify-content-center'>
-                   <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-out-left">Roadmap</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-3 mx-md-5' data-aos="zoom-in-right">Partners</p>
-                    <p className='txt_clr_9 ff_Raleway fs_16 fw_400' data-aos="zoom-in-left">Contact Us</p>
+                    <a href="https://issuu.com/cpublish/docs/july_pia_print_awards_issue/s/12892783" className='txt_clr_9 ff_Raleway fs_16 fw_400'>Roadmap</a>
+                    <a href="https://www.efi.com/about-efi/partners/" className='txt_clr_9 ff_Raleway fs_16 fw_400 mx-4'>Partners</a>
+                    <a href="https://www.efi.com/about-efi/contact-us/" className='txt_clr_9 ff_Raleway fs_16 fw_400'>Contact Us</a>
                    </div>
                 </div>
                 <div className='d-md-flex justify-content-center pt-4 pb-5 mb-3'>
