@@ -16,7 +16,9 @@ const Team = () => {
             <Row className='pt-5 mt-5'>
                 <Col md={4} >
                     <div className=' card_2 d-flex justify-content-center flex-column align-items-center' data-aos="fade-right">
+                      <div className=' w-100 overflow-hidden'>
                       <img className='w-100 link_Scale' src={monkey} alt="" />
+                      </div>
                           <div className='text-ceter  pb-3'>
                             <h2 className='ff_Raleway fs_24 fw_500 text-black mt-4'>Davoice</h2>
                             <p className='ff_Raleway fs_16 fw_400 text-black pt-2'>Co-Founder</p>
