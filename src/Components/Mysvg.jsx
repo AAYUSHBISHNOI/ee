@@ -217,7 +217,8 @@ export const Asix = () => {
 }
 export const Youtube = () => {
   return (
-<svg className='icn' width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="">
+      <svg className='icn' width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="16.5" cy="16.4761" r="15.5" stroke="#1643C3"/>
 <g clip-path="url(#clip0_0_1)">
 <path d="M19.3041 16.3112C17.7566 15.5263 16.2749 14.8047 14.7603 14.0513V18.5584C16.3541 17.736 18.0341 16.9829 19.3107 16.3112H19.3041Z" fill="white"/>
@@ -229,8 +230,8 @@ export const Youtube = () => {
 <rect width="16.8779" height="11.252" fill="white" transform="translate(8.06104 10.8501)"/>
 </clipPath>
 </defs>
-</svg>
-
+      </svg>
+    </a>
   )
 }
 export const Git = () => {
